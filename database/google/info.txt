@@ -1,0 +1,11 @@
+classroom info
+
+cmd commands:
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+scopes:
+https://www.googleapis.com/auth/classroom.student-submissions.students.readonly
+https://www.googleapis.com/auth/classroom.student-submissions.me.readonly
+https://www.googleapis.com/auth/classroom.courses.readonly
+
+don't forget to create your own client and place info in this folder.
